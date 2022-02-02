@@ -12,4 +12,8 @@ class office {
     return this.meetingRooms;
   }
 
+  enter(){
+    return 
+  }
+
 }

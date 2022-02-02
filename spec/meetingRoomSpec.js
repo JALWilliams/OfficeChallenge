@@ -15,4 +15,9 @@ describe('Meeting Rooms', ()=>{
     expect(room.isAvailable()).toBe(true)
   });
 
+  it ('Change status to unavailble when enter', ()=>{
+    room.enter()
+    expect(room.isAvailable()).toBe(false)
+  });
+
 });

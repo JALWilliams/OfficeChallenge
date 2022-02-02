@@ -9,4 +9,8 @@ class meetingRoom {
     return this.availabilityStatus; 
   }
 
+  enter(){
+    return this.availabilityStatus = false;
+  }
+
 }
