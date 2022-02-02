@@ -11,4 +11,8 @@ describe('Meeting Rooms', ()=>{
     expect(room.name).toEqual('Lantana');
   });
 
+  it ('check if room available', ()=>{
+    expect(room.isAvailable()).toBe(true)
+  });
+
 });
