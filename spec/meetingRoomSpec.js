@@ -20,4 +20,9 @@ describe('Meeting Rooms', ()=>{
     expect(room.isAvailable()).toBe(false)
   });
 
+  it ('Changes status back to avaialble when leave', ()=>{
+    room.exit()
+    expect(room.isAvailable()).toBe(true)
+  });
+
 });

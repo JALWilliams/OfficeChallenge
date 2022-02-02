@@ -13,4 +13,8 @@ class meetingRoom {
     return this.availabilityStatus = false;
   }
 
+  exit(){
+    return this.availabilityStatus = true;
+  }
+
 }
