@@ -8,4 +8,8 @@ class office {
     return this.meetingRooms.push(name);
   }
 
+  viewMeetingRooms(){
+    return this.meetingRooms;
+  }
+
 }

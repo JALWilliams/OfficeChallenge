@@ -11,4 +11,10 @@ describe ( 'Office', ()=>{
     expect(ft.meetingRooms).toEqual(['Lantana'])
   });
 
+  it ('List the meeting rooms', ()=>{
+    ft.addMeetingRoom('Lantana')
+    expect(ft.viewMeetingRooms()).toEqual(['Lantana'])
+
+  });
+
 });
