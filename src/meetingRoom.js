@@ -10,6 +10,9 @@ class meetingRoom {
   }
 
   enter(){
+    if (!this.availabilityStatus){
+      throw new Error('Occupied!');
+    }
     return this.availabilityStatus = false;
   }
 

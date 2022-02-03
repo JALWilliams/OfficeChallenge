@@ -25,4 +25,10 @@ describe('Meeting Rooms', ()=>{
     expect(room.isAvailable()).toBe(true)
   });
 
+  it ('Throws an error if I try and enter a occcupied room', () => {
+    room.enter();
+    expect(room.enter).toThrowError('Occupied!')
+
+  });
+
 });
