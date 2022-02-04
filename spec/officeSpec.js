@@ -26,7 +26,6 @@ describe ( 'Office', ()=>{
     lantana.enter();
 
     expect(ft.viewAvailableMeetingRooms()).toEqual(['Plaza']);
-
   });
 
 });

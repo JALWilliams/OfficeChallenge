@@ -10,13 +10,35 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+
+    <!-- <h1 id="meeting-room"> Meeting Room: KYAT </h1>
+    <h3 id='availabiltiy'></h3>
+    <br>
+    <button id ='enter'>Enter</button>
+    <button id ='exit'>Exit</button> -->
+
+    <div class="split left">
+      <div class="centered">
+        <h2>FT</h2>
+        <h3 id= 'meeting-rooms-array'></h3>
+        <button id = 'available-meeting-rooms-button'>Available meetings rooms</button>
+      </div>
+    </div>
     
+    <div class="split right">
+      <div class="centered">
+        <h1 id="meeting-room"> Meeting Room: KYAT </h1>
+        <h3 id='availabiltiy'></h3>
+        <br>
+        <button id ='enter'>Enter</button>
+        <button id ='exit'>Exit</button>
+      </div>
+    </div>
+
+    <script src="interface.js" async defer></script>
     <script src="src/meetingRoom.js" async defer></script>
     <script src="src/office.js" async defer></script>
   </body>
